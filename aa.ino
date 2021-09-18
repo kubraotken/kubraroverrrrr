@@ -19,5 +19,5 @@ void loop() {
   sprintf(line,"S%d%03d%d%03d%d%03d%d%03dF",enc1randomDir,enc1randomVal,enc2randomDir,enc2randomVal,enc3randomDir,enc3randomVal,enc4randomDir,enc4randomVal);
   
   Serial.println(line);
-  
+  delay(1000);
 }
